@@ -61,6 +61,7 @@ RUN apk add --no-cache ca-certificates pcre libldap libgcc libressl \
     --pid-path=/var/run/nginx.pid \ 
     --error-log-path=/var/log/nginx/error.log \ 
     --http-log-path=/var/log/nginx/access.log \
+    --with-stream \
   && make -j$(getconf _NPROCESSORS_ONLN) \
   && make install \
   && ln -s /usr/local/lib/libluajit-5.1.so /usr/lib/libluajit-5.1.so.2 \
