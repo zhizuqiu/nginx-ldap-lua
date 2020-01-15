@@ -1,3 +1,11 @@
+```
+nginx version: nginx/1.16.0
+built by gcc 8.3.0 (Alpine 8.3.0)
+built with OpenSSL 1.1.1d  10 Sep 2019
+TLS SNI support enabled
+configure arguments: --with-ld-opt=-Wl,-rpath,/usr/local/lib --add-module=/root/ngx_devel_kit-0.3.0 --add-module=/root/lua-nginx-module-0.10.14 --add-module=/root/nginx-auth-ldap --add-module=/root/nginx-upstream-dynamic-servers --http-client-body-temp-path=/var/lib/nginx/body --http-fastcgi-temp-path=/var/lib/nginx/fastcgi --http-proxy-temp-path=/var/lib/nginx/proxy --with-http_ssl_module --with-http_realip_module --with-http_auth_request_module --with-debug --conf-path=/etc/nginx/nginx.conf --sbin-path=/usr/sbin/nginx --pid-path=/var/run/nginx.pid --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --with-stream
+```
+
 # Nginx Nomad
 
 https://hub.docker.com/r/ygersie/nginx-ldap-lua
